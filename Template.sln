@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4DBE5DEC-A0DA-417D-B176-7754EEC02D10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7220A17C-F2EC-4E7F-9ABF-1509CE04AB82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "properties", "properties", "{BE93B2B8-EAA9-4EBA-9846-05BC40FF4CAA}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		Directory.Packages.props = Directory.Packages.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template.Tests", "tests\Template.Tests\Template.Tests.csproj", "{305FC8EF-8AFD-421D-8390-6E23D60543CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "properties", "properties", "{E9B13212-AB95-4F6C-B4B8-346D96D05B74}"
+	ProjectSection(SolutionItems) = preProject
+		tests\Directory.Build.props = tests\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template", "src\Template\Template.csproj", "{A1B58738-0260-449C-AEDE-81A81EC61EDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "properties", "properties", "{2B30487D-30F1-452C-8A60-641F3136DB72}"
+	ProjectSection(SolutionItems) = preProject
+		src\Directory.Build.props = src\Directory.Build.props
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{305FC8EF-8AFD-421D-8390-6E23D60543CC} = {7220A17C-F2EC-4E7F-9ABF-1509CE04AB82}
+		{E9B13212-AB95-4F6C-B4B8-346D96D05B74} = {7220A17C-F2EC-4E7F-9ABF-1509CE04AB82}
+		{A1B58738-0260-449C-AEDE-81A81EC61EDC} = {4DBE5DEC-A0DA-417D-B176-7754EEC02D10}
+		{2B30487D-30F1-452C-8A60-641F3136DB72} = {4DBE5DEC-A0DA-417D-B176-7754EEC02D10}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{305FC8EF-8AFD-421D-8390-6E23D60543CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{305FC8EF-8AFD-421D-8390-6E23D60543CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{305FC8EF-8AFD-421D-8390-6E23D60543CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{305FC8EF-8AFD-421D-8390-6E23D60543CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B58738-0260-449C-AEDE-81A81EC61EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B58738-0260-449C-AEDE-81A81EC61EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B58738-0260-449C-AEDE-81A81EC61EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B58738-0260-449C-AEDE-81A81EC61EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

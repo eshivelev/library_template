@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "eshivelev",
+  "identity": "eshivelev.library.template",
+  "name": "eshivelev.library.template",
+  "shortName": "eshivelev.library",
+  "sourceName": "Template",
+  "classifications": [
+    "library template",
+    "eshivelev",
+    "library",
+    "template"
+  ],
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}
