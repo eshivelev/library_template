@@ -1,0 +1,21 @@
+<Project>
+
+    <!-- props inheritance -->
+    <Import Project="$([MSBuild]::GetPathOfFileAbove('Directory.Build.props', '$(MSBuildThisFileDirectory)../'))" />
+
+    <!-- package info -->
+    <PropertyGroup>
+        <IsPackable>true</IsPackable>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <PackageIcon>e-logo.png</PackageIcon>
+        <RepositoryUrl>https://github.com</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <Description>library template</Description>
+        <Authors>eshivelev</Authors>
+        <Copyright>eshivelev</Copyright>
+        <PackageProjectUrl>https://github.com</PackageProjectUrl>
+    </PropertyGroup>
+
+</Project>
